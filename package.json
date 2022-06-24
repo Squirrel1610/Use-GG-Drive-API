@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "googleapis": "^104.0.0"
+  },
+  "name": "use-gg-drive-api",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Squirrel1610/Use-GG-Drive-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Squirrel1610/Use-GG-Drive-API/issues"
+  },
+  "homepage": "https://github.com/Squirrel1610/Use-GG-Drive-API#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
