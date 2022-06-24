@@ -3,14 +3,6 @@ const path = require("path");
 const fs = require("fs");
 require("dotenv").config();
 
-// const CLIENT_ID =
-//   "387905453322-siqc9hobg1114nlrrb584ahnreq9rous.apps.googleusercontent.com";
-// const CLIENT_SECRET = "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";
-// const REDIRECT_URI = "https://developers.google.com/oauthplayground";
-
-// const REFRESH_TOKEN =
-//   "1//043jEgNpgf4RGCgYIARAAGAQSNwF-L9IrXo2YA4TvOx-_H6DXA2OirtgA0iF0kL2nk1u5RQuZ_-iaZFVEIe5C3j_nlW0OAneABcE";
-
 const CLIENT_ID = process.env.CLIENT_ID;
 const CLIENT_SECRET = process.env.CLIENT_SECRET;
 const REDIRECT_URI = process.env.REDIRECT_URI;
